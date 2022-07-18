@@ -1,0 +1,12 @@
+.wrapper {
+
+  .container {
+    display: flex;
+    margin-top: 5px;
+
+    .taskStatusContainer {
+      min-width: 250px;
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.main {
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.default {
+
+}
+
+.start {
+  border: solid black 1px;
+  height: 28px;
+  width: 28px;
+}
+
+.inProgress {
+  border: solid black 1px;
+  height: 28px;
+  width: 28px;
+  background: linear-gradient(135deg, black 50%, transparent 50%)
+}
+
+.done {
+  background-color: black;
+}
+
+.moved {
+  border: solid black 1px;
+  height: 28px;
+  width: 28px;
+}
