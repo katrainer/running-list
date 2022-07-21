@@ -13,7 +13,8 @@ export const NotepadHeader = () => {
 					<span>Сб</span>
 					<span>ВС</span>
 				</div>
-				<div>Задачи</div>
+				<span className={s.titleContainer}>Задачи</span>
+				<span className={s.actionContainer}>Действия</span>
 			</div>
 	)
 }

@@ -5,8 +5,18 @@
     margin-top: 5px;
 
     .taskStatusContainer {
-      min-width: 250px;
+      width: 250px;
       display: flex;
+    }
+
+    .titleContainer {
+      width: 550px;
+    }
+
+    .buttonsContainer {
+      display: flex;
+      width: 200px;
+      justify-content: center;
     }
   }
 }

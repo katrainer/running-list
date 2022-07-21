@@ -20,12 +20,10 @@ export const Task = observer(() => {
 						{Object.entries(t.dailyStatus).map(([key, value]) => <TaskStatus taskStatus={value} key={key}/>)}
 					</div>
 
-					{t.title}
+					<div className={s.titleContainer}>{t.title}</div>
 
-					{t.priorityLevel}
-
-					<Button>редактировать</Button>
-					<Button onClick={() => removeTaskHandler(t.id)}>удалить</Button>
+					<div className={s.buttonsContainer}><Button>редактировать</Button>
+						<Button onClick={() => removeTaskHandler(t.id)}>удалить</Button></div>
 				</div>)}
 			</div>
 	)

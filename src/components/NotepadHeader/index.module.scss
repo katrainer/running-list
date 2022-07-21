@@ -13,4 +13,16 @@
       justify-content: center;
     }
   }
+  .titleContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 550px;
+  }
+  .actionContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+  }
 }

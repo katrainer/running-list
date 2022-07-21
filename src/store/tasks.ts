@@ -65,7 +65,7 @@ export const storeTasks: StoreTasksType = makeAutoObservable({
 				wednesday: 0,
 				thursday: 3,
 				friday: 3,
-				saturday: 0,
+				saturday: 2,
 				sunday: null,
 			}, description: null, color: null
 		},
